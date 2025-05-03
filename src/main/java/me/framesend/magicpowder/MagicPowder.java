@@ -25,7 +25,7 @@ public class MagicPowder extends JavaPlugin implements SlimefunAddon {
         }
 
  
-        ItemStack categoryItem = new CustomItemStack(Material.SUGAR, "&b魔法工艺", "", "&a> 点击打开");
+        ItemStack categoryItem = new CustomItemStack(Material.SUGAR, "&b可可工艺", "", "&a> 点击打开");
         NamespacedKey categoryId = new NamespacedKey(this, "magic_powders");
         ItemGroup category = new ItemGroup(categoryId, categoryItem);
 
