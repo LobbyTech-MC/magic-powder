@@ -45,7 +45,7 @@ public class MagicPowder extends JavaPlugin implements SlimefunAddon {
         SlimefunItem cocapowder = new SlimefunItem(category, cocaPowderItem, RecipeType.ORE_CRUSHER, cocaPowderRecipe);
         cocapowder.register(this);
         
-        SlimefunItemStack unrefinedCocaineItem = new SlimefunItemStack("UNREFINED_COCAINE", Material.SUGAR, "&bUnrefined Cocaine", "", "&7它看上去似乎没啥用.");
+        SlimefunItemStack unrefinedCocaineItem = new SlimefunItemStack("UNREFINED_COCAINE", Material.SUGAR, "&b粗制咖啡因", "", "&7它看上去似乎没啥用.");
         ItemStack[] unrefinedCocaineRecipe = {  new SlimefunItemStack("COCA_POWDER", Material.DEAD_BRAIN_CORAL_FAN, "&b可可粉", "", "&7这可以用作什么?"), new SlimefunItemStack("COCA_POWDER", Material.DEAD_BRAIN_CORAL_FAN, "&b可可粉", "", "&7这可以用作什么?"), new SlimefunItemStack("COCA_POWDER", Material.DEAD_BRAIN_CORAL_FAN, "&b可可粉", "", "&7这可以用作什么?"),
         		new SlimefunItemStack("COCA_POWDER", Material.DEAD_BRAIN_CORAL_FAN, "&b可可粉", "", "&7这可以用作什么?"), new SlimefunItemStack("COCA_POWDER", Material.DEAD_BRAIN_CORAL_FAN, "&b可可粉", "", "&7这可以用作什么?"), new SlimefunItemStack("COCA_POWDER", Material.DEAD_BRAIN_CORAL_FAN, "&b可可粉", "", "&7这可以用作什么?"),
         		new SlimefunItemStack("COCA_POWDER", Material.DEAD_BRAIN_CORAL_FAN, "&b可可粉", "", "&7这可以用作什么?"), new SlimefunItemStack("COCA_POWDER", Material.DEAD_BRAIN_CORAL_FAN, "&b可可粉", "", "&7这可以用作什么?"), new SlimefunItemStack("COCA_POWDER", Material.DEAD_BRAIN_CORAL_FAN, "&b可可粉", "", "&7这可以用作什么?")};

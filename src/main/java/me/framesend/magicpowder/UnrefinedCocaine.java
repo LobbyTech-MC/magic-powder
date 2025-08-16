@@ -1,7 +1,5 @@
 package me.framesend.magicpowder;
 
-import java.util.Locale.Category;
-
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
@@ -28,7 +26,7 @@ public class UnrefinedCocaine extends SlimefunItem {
 	private void onItemRightClick(PlayerRightClickEvent event) {
 		event.getItem().setAmount(event.getItem().getAmount() - 1);
 		event.getPlayer().setHealth(event.getPlayer().getHealth() - 4);
-		event.getPlayer().sendMessage(ChatColor.RED + "Your nose and eyes burn.");
+		event.getPlayer().sendMessage(ChatColor.RED + "你的鼻子和眼睛感受到了灼痛.");
 		event.getPlayer().addPotionEffect(new PotionEffect(PotionEffectType.HUNGER, 20, 1));
 		event.getPlayer().addPotionEffect(new PotionEffect(PotionEffectType.NAUSEA, 10, 3));
 	}
